@@ -1,0 +1,21 @@
+body{ background: azure;
+}
+.mainForm{
+  background: rgba(212, 212, 206, 0.514);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+fieldset{
+  padding: 20px;
+}
+.mainForm #Btn{
+  border:1px solid blue;
+  
+}
+ 
+input{
+  
+  padding: 7px;
+  
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(wall1.jpg);
+  background-position: right;
+  background-size: cover;
+}
+.nav-links li ul{
+  position:absolute;
+  display: block;
+}
+
+.sub-link li  {
+   
+  margin-top: 13px;
+  border: none;
+   
+ 
+   
+  
+}
+
+.sub-link li a  {
+   
+  border: none;
+   
+ 
+   
+  
+}
+
+.nav-links li ul li{
+  list-style: none;
+  line-height: 20px;
+  font-size: 18px;
+  text-align: left;
+  display: none;
+  padding: 10px;
+  width: 200px;
+}
+
+nav li ul li a :hover{
+  color: #273c75;
+  
+}
+ 
+.nav-links li:hover ul li {
+  display: block;
+}
+.nav-links li a:hover{
+   
+  color: white;
+}
+  
+nav ul li{
+  float: left;
+  position: relative;
+  padding: 2px;
+  border-radius: 10%;
+  padding-left: 3px;
+}
+
+.nav-links{ 
+  display: flex; 
+  font-size: larger;
+  box-shadow: 2px;
+  height: 100%;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.nav-links li a{
+  border: 1px solid #3498db;
+  padding: 9px;
+  margin: 10px 8px;
+  outline: none;
+  border-radius: 12px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  
+}
+
+
+ 
+nav{
+  height: 10vh;
+}
+
+section{
+  height: 90vh;
+}
+
+@media Screen and (max-width:758px){
+
+  body{
+    background: url(wall1.jpg);
+    background-clip: content-box;
+  
+  }
+  .nav-links{
+    display: flexbox;
+    flex-direction: column;
+    height: 100vh;
+     
+  }
+
+  .nav-links li a{
+    cursor: pointer;
+    color: blueviolet;
+
+  }
+
+  section{
+    display:none;
+  }
+}
+
+ nav ul li ul li a{
+   border: 0px;
+   
+ 
+ }
